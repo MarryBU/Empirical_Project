@@ -17,12 +17,11 @@ Investigating the data using various plots for the visualisation. Employing stat
 
 ## Repository Structure
 Empirical_Project/
-│
-├── Code.ipynb # Main Jupyter notebook containing all the analysis code
-├── API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv # Military expenditure data
-├── API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv # GDP data per capita
-├── Metadata_Country_API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv. # Metadata for country-specific data related to Military expenditure data
-├── Metadata_Country_API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv # Metadata for country-specific data related to GDP data
+- Code.ipynb # Main Jupyter notebook containing all the analysis code;
+- API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv # Military expenditure data
+- API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv # GDP data per capita
+- Metadata_Country_API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv. # Metadata for country-specific data related to Military expenditure data
+- Metadata_Country_API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv # Metadata for country-specific data related to GDP data
 
 ## Data Availability and Provenance Statements
 ### Summary of Availability
