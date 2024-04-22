@@ -5,12 +5,12 @@
 2. [Data Availability and Provenance Statements](#data-availability-and-provenance-statements)
 3. [Technologies](#technologies)
 4. [Setup](#setup)
-5. [Usage](#usage)
-6. [Scope of Functionalities](#scope-of-functionalities)
-7. [Examples of Use](#examples-of-use)
+5. [Launch](#launch)
+6. [Functionalities](#functionalities)
+7. [License](#license)
 
 ## Overview
-This project evaluates the performance of defense sector stocks, specifically focusing on ITA and 600760.SS, against the backdrop of global military conflicts. Utilizing a combination of historical stock data and real-time news analysis, this research aims to determine if these stocks are beneficial investments during times of conflict.
+This project evaluates the performance of defence sector stocks, specifically focusing on ITA and 600760.SS, against the backdrop of global military conflicts. Utilising a combination of historical stock data and real-time news analysis, this research aims to determine if these stocks are beneficial investments during times of conflict.
 
 ## Data Availability and Provenance Statements
 ### Summary of Availability
@@ -36,6 +36,20 @@ This project uses:
 ## Setup
 To set up this project, follow these steps:
 ```bash
-git clone https://github.com/yourusername/defense-stocks-analysis.git
+git clone [https://github.com/yourusername/defense-stocks-analysis.git](https://github.com/MarryBU/Empirical_Project)
 cd defense-stocks-analysis
 pip install -r requirements.txt
+
+## Launch
+To execute the analysis, start the Jupyter Notebook environment and open the provided notebooks:
+$ jupyter notebook
+Navigate to the notebook files and run them sequentially to replicate the analysis.
+
+## Functionalities
+- Analyse the impact of geopolitical conflicts on stock prices.
+- Correlate media coverage intensity with market movements.
+- Provide predictive insights on how future conflicts might affect defence stocks.
+- Serve as an educational tool for understanding market dynamics related to military activities.
+
+## License
+This project is released under the MIT License - see the [LICENSE](LICENSE) file for details.
