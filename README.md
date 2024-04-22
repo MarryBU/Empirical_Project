@@ -30,12 +30,16 @@ Empirical_Project/
 - Details on each data source are provided below.
 
 ### Details on each Data Source
-| Data.Name | Data Source | Details | Access |
-1. | https://finance.yahoo.com | Historical Stock Data | Prices for SPY,  ITA and 600760.SS from 2006 onwards. | Available on [Yahoo Finance](https://finance.yahoo.com) |
-2. | https://newsapi.org | Real-Time News Data | News API used to fetch recent articles on military activities. | Access via [News API](https://newsapi.org) with an API key |
-3. | API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv ; Metadata_Country_API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv | Economic Indicators | GDP data used from credible government sources for 2005-2022. | Publicly available on [World Bank](https://data.worldbank.org) | 
-4. | API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv ; Metadata_Country_API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv | Economic Indicators | Military expenditure data used from credible government sources for 2005-2022. | Publicly available on [World Bank](https://data.worldbank.org) |
-5. | https://en.wikipedia.org/wiki/List_of_wars:_2003–present | Conflict Data | Data on military conflicts scraped from Wikipedia's "List of wars: 2003–present." | Data extracted using Python libraries BeautifulSoup and Requests for web scraping from [Wikipedia](https://en.wikipedia.org/wiki/List_of_wars:_2003–present) |
+
+| Data Name                     | Data Source                   | Details                                                          | Access                                     | File Name |
+|-------------------------------|-------------------------------|------------------------------------------------------------------|--------------------------------------------|-----------|
+| **Stock Data**                | Yahoo Finance                 | Historical prices for SPY, ITA, and 600760.SS from 2006 onwards. | [Yahoo Finance](https://finance.yahoo.com) | N/A (Data accessed through Yahoo Finance API) |
+| **News Articles**             | News API                      | Real-time articles related to military activities.               | Accessible with API key at [News API](https://newsapi.org) | N/A (Data accessed through News API) |
+| **GDP Economic Indicators**   | The World Bank                | GDP data for 2005-2022.                                          | [World Bank Database](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD) | `API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv`, `Metadata_Country_API_NY.GDP.MKTP.CD_DS2_en_csv_v2_26.csv` |
+| **Military Expenditure Data** | The World Bank                | Military expenditure data for 2005-2022.                         | [World Bank Database](https://data.worldbank.org/indicator/MS.MIL.XPND.CD) | `API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv`, `Metadata_Country_API_MS.MIL.XPND.CD_DS2_en_csv_v2_47475.csv` |
+| **Conflict Data**             | Wikipedia                     | Data on military conflicts since 2003.                           | [Wikipedia](https://en.wikipedia.org/wiki/List_of_wars:_2003–present) | Data extracted and compiled as `conflicts_data.csv` |
+
+In the file name column, I have provided placeholders (`N/A`) where the data might be accessed directly via an API or web service without a downloadable file. For datasets that have a corresponding file in the repository, the exact file names are listed.
 
 ## Technologies
 This project uses:
