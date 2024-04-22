@@ -36,7 +36,7 @@ This project uses:
 ## Setup
 To set up this project, follow these steps:
 ```bash
-git clone [https://github.com/yourusername/defense-stocks-analysis.git](https://github.com/MarryBU/Empirical_Project)
+git clone https://github.com/yourusername/defense-stocks-analysis.git
 cd defense-stocks-analysis
 pip install -r requirements.txt
 
