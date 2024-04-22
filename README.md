@@ -19,10 +19,10 @@ This project evaluates the performance of defense sector stocks, specifically fo
 
 ### Details on each Data Source
 | Data Source | Details | Access |
-| Historical Stock Data | Prices for ITA and 600760.SS from 2006 onwards. | Available on [Yahoo Finance](https://finance.yahoo.com) |
-| Real-Time News Data | News API used to fetch recent articles on military activities. | Access via [News API](https://newsapi.org) with an API key |
-| Economic Indicators | GDP and military expenditure data used from credible government sources. | Publicly available on [World Bank]([https://data.worldbank.org]) |
-| Conflict Data | Data on military conflicts scraped from Wikipedia's "List of wars: 2003–present." | Data extracted using Python libraries BeautifulSoup and Requests for web scraping from [Wikipedia]([https://en.wikipedia.org/wiki/List_of_wars:_2003–present]) |
+1. | Historical Stock Data | Prices for ITA and 600760.SS from 2006 onwards. | Available on [Yahoo Finance](https://finance.yahoo.com) |
+2. | Real-Time News Data | News API used to fetch recent articles on military activities. | Access via [News API](https://newsapi.org) with an API key |
+3. | Economic Indicators | GDP and military expenditure data used from credible government sources. | Publicly available on [World Bank]([https://data.worldbank.org]) |
+4. | Conflict Data | Data on military conflicts scraped from Wikipedia's "List of wars: 2003–present." | Data extracted using Python libraries BeautifulSoup and Requests for web scraping from [Wikipedia]([https://en.wikipedia.org/wiki/List_of_wars:_2003–present]) |
 
 ## Technologies
 This project uses:
