@@ -36,9 +36,10 @@ This project uses:
 ## Setup
 To set up this project, follow these steps:
 ```bash
-git clone https://github.com/yourusername/defense-stocks-analysis.git
+git clone https://github.com/MarryBU/Empirical_Project
 cd defense-stocks-analysis
 pip install -r requirements.txt
+```
 
 ## Launch
 To execute the analysis, start the Jupyter Notebook environment and open the provided notebooks:
