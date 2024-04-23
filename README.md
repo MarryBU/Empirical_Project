@@ -79,5 +79,3 @@ This project is released under the MIT License - see the [LICENSE](LICENSE) file
 ## Blog
 Find the final blog results following the link: https://bolionation888.wordpress.com/2024/04/23/6/
 
-## More sources
-
